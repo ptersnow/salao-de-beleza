@@ -43,7 +43,7 @@
             </div>
         </section>
 
-        <section id="#sobre" class="bg-white flex flex-row">
+        <section id="sobre" class="bg-white flex flex-row">
             <div class="my-40 mr-16">
                 <img src="{{ asset('assets/imgs/Img_sobre.png') }}" alt="" style="width: 773px; height: 446px;">
             </div>
@@ -65,16 +65,44 @@
             </div>
         </section>
 
-        <section id="#servicos" class="bg-gray-100 flex flex-col">
-            <div class="mt-40 mb-15">
-                <h2 class="text-green-900 text-3xl font-bold">
+        <section id="servicos" class="bg-gray-100">
+            <div class="pt-32 flex flex-col items-center justify-center">
+                <h2 class="text-green-900 text-3xl font-bold pb-3">
                     Serviços
                 </h2>
-                <p class="text-gray-500 text-lg">
+                <p class="text-gray-500 text-lg w-[523px] text-center">
                     Com mais de 10 anos no mercado, o <span class="text-green-500 font-bold">Beautysalon</span> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais
                 </p>
             </div>
+            <div class="grid grid-cols-3 gap-8">
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+                    <img src="{{ asset('assets/imgs/hair.svg') }}" alt="">
+                    <h3 class="font-bold text-2xl">Terapia capilar</h3>
+                    <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
+                </div>
+
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+                    <img src="{{ asset('assets/imgs/trim.svg') }}" alt="">
+                    <h3 class="font-bold text-2xl">Cortes</h3>
+                    <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
+                </div>
+
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+                    <img src="{{ asset('assets/imgs/cosmetic.svg') }}" alt="">
+                    <h3 class="font-bold text-2xl">Tratamentos</h3>
+                    <p>O besautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
+                </div>
+            </div>
         </section>
+
+        <section id="depoimentos">
+        </section>
+
+        <section id="contato">
+        </section>
+
+        <footer>
+        </footer>
 
     </body>
 </html>
