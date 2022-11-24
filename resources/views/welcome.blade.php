@@ -74,7 +74,7 @@
                     Com mais de 10 anos no mercado, o <span class="text-green-500 font-bold">Beautysalon</span> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais
                 </p>
             </div>
-            <div class="grid grid-cols-3 gap-8">
+            <div class="grid grid-cols-3 gap-8 pb-44">
                 <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
                     <img src="{{ asset('assets/imgs/hair.svg') }}" alt="">
                     <h3 class="font-bold text-2xl">Terapia capilar</h3>
@@ -96,6 +96,23 @@
         </section>
 
         <section id="depoimentos">
+            <div class="pt-40 flex flex-col items-center justify-center">
+                <h2 class="text-green-900 text-3xl font-bold pb-16">Depoimentos de quem já passou por aqui</h2>
+
+                <div class="rounded shadow w-[544px] h-[264px] mb-56">
+                    <div class="px-14 pt-14 pb-6">
+                        <p class="text-green-900">Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.</p>
+                    </div>
+
+                    <div class="pl-14 flex flex-row items-center">
+                        <img class="h-10 w-10 rounded-full pr-2"
+                            src="{{ asset('assets/imgs/hair.svg') }}"
+                            alt="avatar"
+                        >
+                        <p class="text-gray-500">Nome do usuário</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contato">
