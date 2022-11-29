@@ -115,10 +115,33 @@
             </div>
         </section>
 
-        <section id="contato">
+        <section id="contato" class="bg-gray-100">
+            <div class="flex grid-cols-2 py-40 items-center justify-evenly">
+                <div class="w-96">
+                    <h2 class="text-green-900 text-3xl font-bold">Entre em contato com a gente!</h2>
+                    <p class="text-gray-500 text-lg mt-3 pb-6">Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+                    <button
+                        class="flex bg-green-500 text-gray-100 font-medium rounded px-8 py-4 gap-3"
+                    >
+                        <img src="{{ asset('assets/imgs/whatsapp.svg') }}" class="text-gray-100">
+                        Entrar em contato
+                    </button>
+                </div>
+                <div>
+                    <p class="flex gap-3 text-gray-500 text-lg pb-8">
+                        <img src="{{ asset('assets/imgs/phone.svg') }}"> 11 99845-6754
+                    </p>
+                    <p class="flex gap-3 text-gray-500 text-lg pb-8">
+                        <img src="{{ asset('assets/imgs/map-pin.svg') }}"> R. Amauri Souza, 346
+                    </p>
+                    <p class="flex gap-3 text-gray-500 text-lg">
+                        <img src="{{ asset('assets/imgs/mail.svg') }}"> contato@beautysalon.com
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <footer>
+        <footer class="bg-green-500 h-60">
         </footer>
 
     </body>
