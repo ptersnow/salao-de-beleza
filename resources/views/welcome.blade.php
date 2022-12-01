@@ -66,7 +66,7 @@
         </section>
 
         <section id="servicos" class="bg-gray-100">
-            <div class="pt-32 flex flex-col items-center justify-center">
+            <div class="pt-32 pb-16 flex flex-col items-center justify-center">
                 <h2 class="text-green-900 text-3xl font-bold pb-3">
                     Serviços
                 </h2>
@@ -74,20 +74,20 @@
                     Com mais de 10 anos no mercado, o <span class="text-green-500 font-bold">Beautysalon</span> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais
                 </p>
             </div>
-            <div class="grid grid-cols-3 gap-8 pb-44">
-                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+            <div class="flex grid-cols-3 gap-8 pb-44 justify-evenly">
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center shadow">
                     <img src="{{ asset('assets/imgs/hair.svg') }}" alt="">
                     <h3 class="font-bold text-2xl">Terapia capilar</h3>
                     <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
                 </div>
 
-                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center shadow">
                     <img src="{{ asset('assets/imgs/trim.svg') }}" alt="">
                     <h3 class="font-bold text-2xl">Cortes</h3>
                     <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
                 </div>
 
-                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center">
+                <div class="flex flex-col border-b border-green-500 w-[352px] h-[352px] drop-shadow items-center justify-center text-center shadow">
                     <img src="{{ asset('assets/imgs/cosmetic.svg') }}" alt="">
                     <h3 class="font-bold text-2xl">Tratamentos</h3>
                     <p>O besautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
@@ -123,7 +123,7 @@
                     <button
                         class="flex bg-green-500 text-gray-100 font-medium rounded px-8 py-4 gap-3"
                     >
-                        <img src="{{ asset('assets/imgs/whatsapp.svg') }}" class="text-gray-100">
+                        <img src="{{ asset('assets/imgs/whatsapp.svg') }}">
                         Entrar em contato
                     </button>
                 </div>
@@ -141,7 +141,23 @@
             </div>
         </section>
 
-        <footer class="bg-green-500 h-60">
+        <footer class="bg-green-500">
+            <div class="flex grid-cols-2 py-16 items-center justify-evenly">
+                <div class="w-[620px] pl-10 text-gray-100">
+                    <img src="{{ asset('assets/imgs/logo_footer.png') }}" >
+                    <p
+                        class="pt-6 pb-3"
+                    >
+                        ©2022 Beautysalon.
+                    </p>
+                    <p>Todos os direitos reservados.</p>
+                </div>
+                <div class="flex items-center justify-evenly gap-8">
+                    <img src="{{ asset('assets/imgs/instagram_footer.svg') }}" >
+                    <img src="{{ asset('assets/imgs/facebook_footer.svg') }}" >
+                    <img src="{{ asset('assets/imgs/youtube_footer.svg') }}" >
+                </div>
+            </div>
         </footer>
 
     </body>
